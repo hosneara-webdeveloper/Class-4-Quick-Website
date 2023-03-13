@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-size: 18px;
+    color: #3b506c;
+}
+
+img {
+    width: 100%;
+}
+
+.wrapper {
+    width: 1150px;
+    margin: auto;
+}
+
+section {
+    overflow: hidden;
+}
+
+header {
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    padding: 0 0 0 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: white;
+}
+
+
+.logo {
+    width: 20%;
+    float: left;
+    padding-top: 20px;
+}
+
+.logo a {}
+
+.logo a img {
+    width: 120px;
+}
+
+nav {
+    width: 80%;
+    float: right;
+
+
+    font-weight: 600;
+
+
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    text-align: right;
+
+}
+
+nav ul li {
+    display: inline;
+
+
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 15px 20px;
+    display: inline-block;
+    padding: 15px 0 15px 25px;
+    color: #3b506c;
+}
+
+/* banner section start */
+
+.banner-section {
+    padding: 100px 0;
+
+}
+
+.banner {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+
+}
+
+.banner h1 {
+    font-size: 70px;
+    color: #3B506C;
+}
+
+.banner h1 span {
+
+    color: #0C66FF;
+
+}
+
+.banner p {}
+
+.banner img {}
+
+/* successful project section start  */
+
+.col-1-2 {
+    width: 45%;
+    float: left;
+    padding: 28px;
+}
+
+
+
+.col-1-2 h2 {
+    font-size: 50px;
+}
+
+.right h2 {
+    text-align: right;
+    color: #ff3333;
+
+}
+
+
+
+
+.col-1-2 p {}
+
+.col-1-2 {}
+
+
+
+
+/* blog section strat */
+
+.blog-section {
+    padding: 50px 0;
+}
+
+.blogs {
+
+    width: 33.33%;
+    float: left;
+}
+
+
+
+.blog {
+    margin: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 15px;
+    border-radius: 6px;
+    transition: .4s;
+
+
+
+}
+
+.blog:hover {
+    background-color: antiquewhite;
+
+}
+
+.blog img {
+    height: 300px;
+
+}
+
+
+
+
+
+.blog h3 {}
+
+.blog p {}
+
+/* footer items start */
+
+footer {
+
+    background-color: #eeeeee;
+    padding: 44px 0 400px 0;
+}
+
+.footer-items {
+    width: 25%;
+    float: left;
+}
+
+.footer-content {
+    padding: 25px;
+}
+
+.footer-content h4 {
+    font-size: 25px;
+}
+
+.footer-content li {
+    text-transform: capitalize;
+    list-style: none;
+    padding: 6px 0;
+}
+
+.footer-content li a {}
+
+/* footer items end */
